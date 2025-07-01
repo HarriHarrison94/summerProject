@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d43b58;
+  color: #024b49;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+  line-height: 1.6;
+  align-content: center;
+}
+
+.container {
+  background-color: #caf9f6;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 20px;
+}
+
+img {
+  max-width: 35%;
+  height: auto;
+  margin: 10px;
+  border: 10px solid #19958d;
+  border-radius: 10px;
+  align-items: center;
+}
+
+a {
+  color: #024b49;
+  margin:5px;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: #024b49 solid 10px;
+  border-bottom: #024b49 solid 10px;
+  background-color: #edcace;
+  padding: 10px;
+}
+
+h1 {
+  background-color: #d43b58;
+  font-size: 36px;
+  margin: 20px 0;
+  text-align: center;
+  color: #edcace;
+}
+
+.name {
+  display: inline-block;
+  animation: nameFade 5s 2s ease-in-out infinite alternate;
+  font-weight: bold;
+  color: #edcace;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px;
+  width: 100%;
+}
+
+.inspiration {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 100%;
+}
+
+@keyframes nameFade {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0;
+  }
+}
