@@ -15,15 +15,6 @@
   padding: 10px;
 }
 
-body {
-  background-color: #d43b58;
-  color: #024b49;
-  font-size: 16px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
-  line-height: 1.6;
-  align-content: center;
-}
-
 .container {
   background-color: #caf9f6;
   display: flex;
