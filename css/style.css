@@ -40,6 +40,8 @@ img {
 a {
   color: #024b49;
   margin:5px;
+  text-decoration: none;
+  display: flex;
 }
 
 .nav{
@@ -82,14 +84,6 @@ h2 {
   width: 100%;
 }
 
-.inspiration {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 10px;
-  width: 100%;
-}
-
 @keyframes nameFade {
   from {
     opacity: 100%;
@@ -97,4 +91,10 @@ h2 {
   to {
     opacity: 0;
   }
+}
+
+.nav a:hover {
+  color: #d43b58;
+  text-decoration: underline;
+  transform: scale(1.1);
 }
