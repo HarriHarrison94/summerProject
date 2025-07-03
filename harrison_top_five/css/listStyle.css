@@ -15,14 +15,6 @@
   padding: 10px;
 }
 
-.container {
-  background-color: #caf9f6;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  max-width: 100%;
-}
-
 .topFive {
   background-color: #caf9f6;
   display: flex;
